@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+ }
+ 
+ /*------HEADER------*/
+ .headertop{
+    background-color: #e2f3ff;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+ }
+ 
+ .headercircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+ }
+ 
+ .headercircle--1{
+    background-color: #1885df;
+ }
+ 
+ .headercircle--2{
+    background-color: #a391ff;
+ }
+ 
+ .headercircle--3{
+    background-color: #9b8476;
+ }
+ 
+ .headermenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 150px;
+    height: 120px;
+ }
+ 
+ .headerlogo{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #515a79;
+ }
+ 
+ .headerlist{
+    display: flex;
+ }
+ 
+ .headeritem{
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #515a79;
+    cursor: pointer;
+ }
+ 
+ .headeritem:hover{
+    color: #9da4bd;
+    transition: .4s;
+    padding: 10px;
+ }
+ 
+ /*------MAIN------*/
+ .mainslide{
+    background-color: #515a79;
+    height: 500px;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ }
+ 
+ .mainchamada{
+    width: 600px;
+    color: white;
+ }
+ 
+ .maintitle{
+    font-size: 40px;
+    line-height: 40px;
+ }
+ 
+ .maintext{
+    color: #99a0b9;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 20px 0;
+ }
+ 
+ .mainbtn{
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+    width: 135px;
+    background-color: #7ddf96;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ 
+ .mainbtn:hover{
+    background-color: #5cb171;
+    color: rgb(233, 233, 233);
+    transition: .4s;
+ }
+ 
+ .mainicon{
+    color: #99a0b9;
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+ }
+ 
+ .mainiphone{
+    height: 560px;
+ }
+
+ /*Features*/
+ .features {
+     height: 640px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .features__title {
+    width: 600px;
+    text-align: center;
+    margin-bottom: 100px;
+ }
+
+ .features__subtitle {
+    margin-top: 60px;
+    font-size: 45px;
+    color: #515a79;
+    font-weight: bold;
+    padding-bottom: 10px;
+ }
+
+ .features__text {
+    color: #999fb3;
+    line-height: 25px;
+ }
+
+.features__containerItens {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 100%;
+     padding: 0 150px;
+ }
+
+ .features__itens {
+    max-width: 620px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+ }
+
+ .features__icon {
+     font-size: 85px;
+     margin-right: 20px;
+     color: #515a79;
+ }
+
+ .features__icon :hover {
+     color: #7ddf96;
+     transition: .1s;
+ }
+
+ .features__info {
+     width: 620;
+ }
+
+ .features__itensTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #515a79;
+    margin-bottom: 10px;
+ }
